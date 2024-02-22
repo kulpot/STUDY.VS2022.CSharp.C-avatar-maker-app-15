@@ -71,6 +71,9 @@ using System.Windows.Forms;
 
 // added Form2.cs(WindowsForm)(Form2 Ref: Form2 f2 = new Form2();), listBox1(Form2.cs)(Prop:DataSource->addProjectDataSource->object->ERROR:noObject->Solution:Form2 Ref.AddedWithProp.), TextBox(Form2.cs)(Properties:Mutliline->True), button x3(Form2.cs), 
 
+//-------------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+//ref link:https://www.youtube.com/watch?v=v_FUCihxEzM&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=3
+
 namespace HeroMaker
 {
     public partial class Form1 : Form

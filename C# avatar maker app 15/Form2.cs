@@ -13,11 +13,15 @@ namespace C__avatar_maker_app_13
 {
     public partial class Form2 : Form
     {
+        //-----START------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+        BindingSource bs = new BindingSource();
+        //-----END------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+
         public Form2()
         {
             InitializeComponent();
             //-----START------- C# avatar maker app 13 use a static class to store a list of objects -------------------------------
-            BindingSource bs = new BindingSource();
+            //BindingSource bs = new BindingSource(); // move above Form() constructor
             bs.DataSource = HeroList.hallOfFame;
             listBox1.DataSource = bs;
             listBox1.DisplayMember = "Name";    //ErrorSolutionFrom:Hero class needs a ToString() method or ListBox1 needs a DisplayMember property set.

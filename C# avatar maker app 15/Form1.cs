@@ -74,7 +74,7 @@ using System.Windows.Forms;
 //-------------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
 //ref link:https://www.youtube.com/watch?v=v_FUCihxEzM&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=3
 
-// edit Form2.cs Button(name:A->Z/designName:btn_sortAZ/MethodAdd),Button(Z->A/btn_sortZA),
+// edit Form2.cs Button(name:A->Z/designName:btn_sortAZ),Button(Z->A/btn_sortZA),Add method to(button:A->Z/Z->A),
 
 namespace HeroMaker
 {

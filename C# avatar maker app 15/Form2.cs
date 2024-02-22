@@ -33,6 +33,14 @@ namespace C__avatar_maker_app_13
         private void btn_sortAZ_Click(object sender, EventArgs e)
         {
             HeroList.hallOfFame.Sort();     //ERROR: The hero class should have the CompareTo method
+            bs.ResetBindings(false);
+        }
+
+        private void btn_sortZA_Click(object sender, EventArgs e)
+        {
+            HeroList.hallOfFame.Sort();
+            HeroList.hallOfFame.Reverse();
+            bs.ResetBindings(false);
         }
         //-----END------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
 

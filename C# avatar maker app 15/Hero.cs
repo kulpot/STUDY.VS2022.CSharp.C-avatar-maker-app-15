@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace C__heromaker_10
 {
+    //------START------ C# heromaker 10 hero object ---------------------------------------------------------
     //public class Hero   
+
     //-----START------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
     public class Hero : IComparable
     //-----END------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
     {
-        //------START------ C# heromaker 10 hero object ---------------------------------------------------------
         // HeroConstructorMethod //Create->Highlight all Hero Properties->CTRL+. ->Select Create Constructor Method
         public Hero(string name, 
             bool[] specialAbilities, 

@@ -69,6 +69,7 @@
             this.btn_sortZA.TabIndex = 3;
             this.btn_sortZA.Text = "Z->A";
             this.btn_sortZA.UseVisualStyleBackColor = true;
+            this.btn_sortZA.Click += new System.EventHandler(this.btn_sortZA_Click);
             // 
             // button3
             // 

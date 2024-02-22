@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C__avatar_maker_app_15
+namespace HeroMaker
 {
     internal static class Program
     {

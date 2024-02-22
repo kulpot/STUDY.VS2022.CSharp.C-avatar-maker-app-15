@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace C__heromaker_10
 {
     //public class Hero   
-
-    public class Hero   
+    //-----START------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+    public class Hero : IComparable
+    //-----END------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
     {
         //------START------ C# heromaker 10 hero object ---------------------------------------------------------
         // HeroConstructorMethod //Create->Highlight all Hero Properties->CTRL+. ->Select Create Constructor Method
@@ -65,6 +66,14 @@ namespace C__heromaker_10
         public String PortraitPhoto { get; set; }
         //public string PortraitPhoto { get; set; }
         //-----END------- C# heromaker 10 hero object ---------------------------------------------------------
+
+        //-----START------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+        public int CompareTo(object obj)
+        {
+            Hero other = (Hero)obj;
+            return Name.CompareTo(other.Name);
+        }
+        //-----END------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
 
     }
 }

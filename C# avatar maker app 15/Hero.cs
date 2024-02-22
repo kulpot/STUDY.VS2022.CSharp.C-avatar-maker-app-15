@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace C__heromaker_10
 {
+    //public class Hero   
+
     public class Hero   
     {
         //------START------ C# heromaker 10 hero object ---------------------------------------------------------

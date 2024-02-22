@@ -24,5 +24,13 @@ namespace C__avatar_maker_app_13
             //-----END------- C# avatar maker app 13 use a static class to store a list of objects -------------------------------
 
         }
+
+        //-----START------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+        private void btn_sortAZ_Click(object sender, EventArgs e)
+        {
+            HeroList.hallOfFame.Sort();     //ERROR: The hero class should have the CompareTo method
+        }
+        //-----END------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+
     }
 }
